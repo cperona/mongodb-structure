@@ -1,3 +1,32 @@
+# MongoDB Structure
+
+We will create different databases in MongoDB.
+
+## Level 1
+
+Optics:
+
+An optician’s shop, wants to computerize the management of customers and glasses sales.
+
+First, the optician wants to know which supplier provides each pair of glasses. Specifically, they want to know for each supplier: name, address (street, number, floor, door, city, postal code, and country), phone number, fax, and tax ID (NIF).
+
+For the glasses, they want to store: brand, prescription of each lens, type of frame (rimless, plastic, or metal), frame color, color of each lens, and price.
+
+For customers, they want to store: name, postal address, phone number, email, and registration date.
+When a new customer arrives, store the customer who referred them to the shop (if someone recommended it).
+
+The system must indicate which employee sold each pair of glasses, and define the date/time when the sale took place.
+
+### Exercise 1
+
+Imagine we have the following graphical interface from the point of view of a customer of the optician. How would you design the database to facilitate this information?
+
+### Exercise 2
+
+And what if the point of view of the interface were the glasses?
+
+## Set up
+
 - launch mongodb: ``sudo docker compose up -d``
 - connect to mongodb:
    - (option1): connect to the mongo shell (mongosh) inside the container: 
