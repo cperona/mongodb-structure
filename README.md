@@ -1,6 +1,6 @@
 # MongoDB Structure
 
-We will create different databases in MongoDB.
+Create different databases in MongoDB.
 
 ## Level 1
 
