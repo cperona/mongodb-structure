@@ -1,0 +1,13 @@
+services:
+    mongodb:
+        # use mongodb://genghis:khan@localhost:27017 as the connection string to connect to the db
+        image: mongo:latest
+        container_name: mongolia
+        ports:
+            - "27017:27017"
+        volumes:
+            - ./mongodb:/data/db
+            - ./scripts:/scripts
+        environment:
+            MONGODB_INITDB_ROOT_USERNAME: genghis
+            MONGODB_INITDB_ROOT_PASSWORD: khan
