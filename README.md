@@ -88,3 +88,5 @@ db.insert-collection-name.insertMany([
  `db.getCollectionNames()`
 - to drop the database:
  `db.dropDatabase()`
+
+#ITA.S2.03
